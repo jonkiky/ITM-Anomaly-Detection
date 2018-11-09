@@ -305,7 +305,7 @@ nav.top-nav a.brand-logo {
 		var threadInfo = {
 				"database" :super_talk,
 				"token" : super_token,
-				"tid" :threadid
+				"tid" :""
 		}
 			$.ajax({
 						url :  "/WSG/thread/noteids/getbythreadid",
