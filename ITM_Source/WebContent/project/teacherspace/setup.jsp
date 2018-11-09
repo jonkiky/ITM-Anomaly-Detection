@@ -510,7 +510,7 @@
 							"database" :'<%=session.getAttribute("localdb")%>' ,
 							"token" : '<%=session.getAttribute("token")%>',
 							"projectId":projectId,
-							"areaid":areaid
+							"areaid":""
 			 		}
 			 		
 			 		$.ajax({
