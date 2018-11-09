@@ -1,0 +1,83 @@
+[
+	{
+		"start":"index.jsp",
+		"trigger_function":"null",
+		"end":"dashboard.jsp",
+	},
+	{
+		"start":"dashboard.jsp",
+		"trigger_function":"click Logout",
+		"end":"index.jsp",
+	},
+	{
+		"start":"dashboard.jsp",
+		"trigger_function":"enter",
+		"end":"project/openedit.jsp",
+	},
+	{
+		"start":"dashboard.jsp",
+		"trigger_function":"click New Community",
+		"end":"register_community.jsp",
+	},
+	{
+		"start":"register_community.jsp",
+		"trigger_function":"click register Community",
+		"end":"dashboard.jsp",
+	},
+	{
+		"start":"project/openedit.jsp",
+		"trigger_function":"enter",
+		"end":"project/ourspace/dashboard.jsp",
+	},
+	{
+		"start":"project/openedit.jsp",
+		"trigger_function":"click modify",
+		"end":"project/teacherspace/modify.jsp",
+	},{
+		"start":"project/teacherspace/modify.jsp",
+		"trigger_function":"$(\"#create-submit\").click",
+		"end":"project/openedit.jsp",
+	},
+	{
+		"start":"project/teacherspace/modify.jsp",
+		"trigger_function":"goback()",
+		"end":"project/openedit.jsp",
+	},
+	{
+		"start":"project/openedit.jsp",
+		"trigger_function":"click new project",
+		"end":"project/teacherspace/setup.jsp",
+	},
+	{
+		"start":"project/teacherspace/setup.jsp",
+		"trigger_function":"$(\"#create-submit\").click",
+		"end":"project/openedit.jsp",
+	},
+	{
+		"start":"project/ourspace/dashboard.jsp",
+		"trigger_function":"enterActivity",
+		"end":"project/ourspace/activity_rader.jsp",
+	},
+	{
+		"start":"project/ourspace/activity_rader.jsp",
+		"trigger_function":"get_project_info",
+		"end":"project/openedit.jsp",
+	},
+	{
+		"start":"project/ourspace/dashboard.jsp",
+		"trigger_function":"$(\"#mapping_finish\").click",
+		"end":"thread/mapping.jsp",
+	},
+	{
+		"start":"project/ourspace/dashboard.jsp",
+		"trigger_function":"$(\"#enterCrossProject\").click",
+		"end":"thread/cross_project_sharing.jsp",
+	},
+	
+	{
+		"start":"project/ourspace/dashboard.jsp",
+		"trigger_function":"d3 click",
+		"end":"thread/thread.jsp",
+	}
+
+]

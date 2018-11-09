@@ -1,0 +1,62 @@
+package edu.albany.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import edu.albany.services.InformationServices;
+
+/**
+ * Servlet implementation class SET_PROJECT_FOCUS
+ */
+@WebServlet("/SET_PROJECT_FOCUS")
+public class SET_PROJECT_FOCUS extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public SET_PROJECT_FOCUS() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String projectid = request.getParameter("projectid");
+		InformationServices service =  new InformationServices();
+		HttpSession session = request.getSession();
+		String projectname = service.getProjectNameById(projectid, session.getAttribute("localdb").toString());
+		String projectrole = request.getParameter("projectrole");
+		PrintWriter out = response.getWriter();
+		
+		session.setAttribute("projectid", projectid);
+		session.setAttribute("projectname", projectname);
+		session.setAttribute("projectrole", projectrole);
+		
+		out.print(projectid);
+		out.close();
+	}
+
+}

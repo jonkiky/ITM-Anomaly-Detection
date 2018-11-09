@@ -1,0 +1,123 @@
+[
+	{
+		"parent":"dashboard.jsp",
+		"children":[
+			"js/itm.js",
+		]
+
+	},
+
+	{
+		"parent":"project/openedit.jsp",
+		"children":[
+			"js/itm.js",
+			"js/itm_local_storage.js",
+		]
+
+	},
+	{
+		"parent":"register_community.jsp",
+		"children":[]
+
+	},
+	{
+		"parent":"project/ourspace/dashboard.jsp",
+		"children":[
+			"thread/thread_info_modal.jsp",
+			"js/itm.js",
+			"js/project_dashboard.js"
+		]
+
+	},
+	{
+		"parent":"project/teacherspace/modify.jsp",
+		"children":[
+			"js/itm.js",
+		]
+
+	},
+	{
+		"parent":"project/teacherspace/setup.jsp",
+		"children":[
+			"js/itm.js",
+		]
+
+	},
+	{
+		"parent":"project/teacherspace/setup.jsp",
+		"children":[
+			"js/itm.js",
+		]
+
+	},
+	{
+		"parent":"project/ourspace/activity_rader.jsp",
+		"children":[
+		]
+
+	},
+	{
+		"parent":"thread/mapping.jsp",
+		"children":[
+		]
+
+	},
+	{
+		"parent":"thread/thread.jsp",
+		"children":[
+			"/js/itm.js",
+			"/js/thread/thread.js",
+			"thread/thread_info_modal.jsp",
+			"thread/jot.jsp",
+			"thread/buildontofrom.jsp",
+			"thread/showbuildon.jsp",
+			"thread/showhighlight.jsp",
+			"thread/showauthortitle.jsp",
+			"thread/showauthor.jsp",
+			"thread/showtitle.jsp",
+			"thread/notereadadd.jsp"
+		]
+	},
+	{
+		"parent":"thread/jot.jsp",
+		"children":[
+		]
+	},
+	{
+		"parent":"thread/buildontofrom.jsp",
+		"children":[
+		]
+	},
+	{
+		"parent":"thread/showbuildon.jsp",
+		"children":[
+		]
+	},
+	{
+		"parent":"thread/showhighlight.jsp",
+		"children":[
+		]
+	},
+	{
+		"parent":"thread/showauthortitle.jsp",
+		"children":[
+		]
+	},
+	{
+		"parent":"thread/showauthor.jsp",
+		"children":[
+		]
+	},
+	{
+		"parent":"thread/notereadadd.jsp",
+		"children":[
+		]
+	},
+	{
+		"parent":"thread/showtitle.jsp",
+		"children":[
+		]
+	},
+
+
+]

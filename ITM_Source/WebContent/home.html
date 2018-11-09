@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+
+    <style>
+        @media (min-width: 768px) {
+            .brand-logo {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+
+            .length {
+                width: 130px;
+            }
+
+            .languagenav {
+                width: 60px;
+            }
+
+        }
+
+        .links line {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+
+        .nodes circle {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .container {
+            margin: 0 auto;
+
+            max-width: 1280px;
+
+            width: 90%;
+        }
+
+        main {
+            padding-left: 300px;
+        }
+
+        header {
+            padding-left: 300px;
+        }
+
+        ul.side-nav.fixed li.logo {
+            text-align: center;
+            margin-top: 12px;
+            margin-bottom: 62px;
+        }
+
+        nav.top-nav {
+            height: 122px;
+        }
+
+        nav.top-nav a.brand-logo {
+            line-height: 122px;
+            font-size: 48px;
+        }
+
+        .side-nav.fixed li a {
+            padding: 0 30px;
+        !important;
+        }
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+<header>
+    <div class="navbar-fixed">
+        <nav class="top-nav blue-grey">
+            <div class="container">
+                <div class="nav-wrapper blue-grey row">
+                    <a href="#" class="brand-logo col l12">Idea Thread Mapper</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <ul id="slide-out" class="side-nav fixed">
+        <li class="logo"><a id="logo-container" href="#" class="brand-logo">
+            <img src="res/itmlogo100x100.gif">
+        </a></li>
+        <div class="divider"></div>
+
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li class="bold"><a class="collapsible-header  waves-effect waves-teal"
+                                    style="padding :0 30px;">Project</a>
+                    <div class="collapsible-body" style="">
+                        <ul>
+                            <li><a href="project/create.html" style="padding :0 50px;">Create</a></li>
+                            <li><a href="project/openedit.html" style="padding :0 50px;">Open/Edit</a></li>
+                            <li><a href="#" style="padding :0 50px;">Visit</a></li>
+                            <li><a href="#" style="padding :0 50px;">Deleted</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="bold"><a class="collapsible-header  waves-effect waves-teal"
+                                    style="padding :0 30px;">Thread</a>
+                    <div class="collapsible-body" style="">
+                        <ul>
+                            <li><a href="#" style="padding :0 50px;">Create</a></li>
+                            <li><a href="#" style="padding :0 50px;">Open</a></li>
+                            <li><a href="#" style="padding :0 50px;">Deleted</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="bold"><a class="collapsible-header  waves-effect waves-teal" style="padding :0 30px;">Map</a>
+                </li>
+                <li class="bold"><a class="collapsible-header  waves-effect waves-teal"
+                                    style="padding :0 30px;">Network</a></li>
+
+                <div class="divider"></div>
+
+                <li class="bold"><a class="collapsible-header  waves-effect waves-teal" href="index.html"
+                                    style="padding :0 30px;">Logout</a></li>
+            </ul>
+        </li>
+
+
+    </ul>
+</header>
+
+<main>
+    <div class="container">
+        <div class="row">
+
+            <div class="col l12">
+                <br>
+                <br>
+
+                <p style="font-size: medium; line-height: 40px; margin-top: 40px;">
+                    <b>Welcome</b> to Idea Thread Mapper (ITM): A knowledge mapping tool to help student groups review,
+                    organize, and develop ideas during online discussions (e.g. in Knowledge Forum). Use the following
+                    functions to reflect on your discussions:
+                </p>
+                <p style="font-size: medium;line-height: 40px;">
+                    <b>Project </b>: Fill information about what you are studying (i.e. content area) and who you are;
+                </p>
+                <p style="font-size: medium;line-height: 40px;">
+                    <b>Thread </b>: Set a focus, find important ideas (i.e. notes), show them on a timeline, summarize
+                    progress and next steps;
+                </p>
+                <p style="font-size: medium;line-height: 40px;">
+                    <b>Map </b>: Show your idea threads on a map, reflect on what you have learned as a whole group and
+                    what you need to focus on next.
+                </p>
+                <p style="font-size: medium; line-height: 40px;">
+                    You can revisit and update your idea threads map over time as your online discussions continue.
+                </p>
+                <p style="font-size: medium; line-height: 40px;">
+                    Let ideas connect and grow for a better world!
+                </p>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="fixed-action-btn click-to-toggle" style="bottom: 45px; right: 24px;">
+    <a class="btn">Language</a>
+    <ul>
+        <li><a class="btn">English</a></li>
+        <li><a class="btn">Français</a></li>
+        <li><a class="btn">中文简体</a></li>
+        <li><a class="btn">中文繁體</a></li>
+    </ul>
+</div>
+
+
+<!--Import jQuery before materialize.js-->
+<script src="js/jquery-3.1.0.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript">
+
+    $('.button-collapse').sideNav({
+                menuWidth: 300, // Default is 240
+                edge: 'right', // Choose the horizontal origin
+                closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            }
+    );
+
+    var language_load = [];
+    var word_load = [];
+
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "test.csv",
+            dataType: "text",
+            success: function (data) {
+                console.log(data);
+                processData(data);
+            }
+        });
+    });
+
+    function processData(allText) {
+        var lines = allText.split("\n").length;
+        console.log(lines);
+        var languages = allText.split("\n");
+        word_load = languages;
+        languages.forEach(addToLanguageList);
+    }
+    function addToLanguageList(data) {
+        var tmp = data.split(",");
+        if (tmp[0] != '') {
+            if ($("#dropdown1").hasClass(tmp[0]) == false)
+                $("#dropdown1").append('<li><a href="#">' + tmp[0] + '</a></li>');
+            else
+                $("#dropdown1").append('<li class="teal"><a href="#" class="white-text">' + tmp[0] + '</a></li>');
+            language_load.push(tmp[0]);
+        }
+    }
+
+    $(document).on('click', '#dropdown1 li', function () {
+        if ($(this).hasClass("teal") == false) {
+//            console.log(language_load);
+            var i = 0;
+            while (language_load[i] != $(this).text()) {
+                i++;
+            }
+
+            $($("#nav-mobile").children()[0]).children().text(word_load[i].split(",")[1]);
+            $($("#nav-mobile").children()[1]).children().text(word_load[i].split(",")[2]);
+            $($("#nav-mobile").children()[2]).children().text(word_load[i].split(",")[3]);
+            $($("#nav-mobile").children()[3]).children().text(word_load[i].split(",")[4]);
+            $($("#nav-mobile").children()[4]).children().text(word_load[i].split(",")[5]);
+
+            $("#dropdown1 li").removeClass("teal");
+            $("#dropdown1 li a").removeClass("white-text");
+            $(this).addClass("teal");
+            $(this).children().addClass("white-text");
+
+        }
+
+    });
+
+
+    $(document).on('click', '#project .collection a', function () {
+        $(this).parent().children().removeClass("active");
+        $(this).addClass("active");
+        $("#navthread").removeClass("lighten-2");
+        $("#navmap").removeClass("lighten-2");
+    });
+
+    $("#navproject").click(function () {
+        $("#thread").hide();
+        $("#project").show();
+    });
+
+    $("#navthread").click(function () {
+        if ($(this).hasClass("lighten-2"))
+            Materialize.toast('Please select a project first', 4000);
+        else {
+            $("#project").hide();
+            $("#thread").show();
+
+            if ($("#thread .collection a").length) {
+
+            }
+            else {
+                for (var j = 0; j < 5; j++)
+                    $("#thread .collection").append('<a href="#!" class="collection-item">Thread' + j + '</a>');
+            }
+        }
+    });
+
+    $("#navmap").click(function () {
+        if ($(this).hasClass("lighten-2"))
+            Materialize.toast('Please select a project first', 4000);
+        else
+            $("#project").hide();
+    });
+
+    $(document).on('click', '#thread .collection a', function () {
+        $(this).parent().children().removeClass("active");
+        $(this).addClass("active");
+        $("#thread").hide();
+        $("#detail").show();
+    });
+
+</script>
+
+</body>
+</html>

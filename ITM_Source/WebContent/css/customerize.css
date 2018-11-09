@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+.btn, .btn-large, .btn-flat {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+.file-field .btn, .file-field .btn-large {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+
+body{
+	front-size:15px;
+}
+
+@media (min-width: 992px){
+
+html {
+    front-size:15px;
+}
+}
+
+@media ( min-width : 768px) {
+	.length {
+		width: 130px;
+	}
+	.languagenav {
+		width: 60px;
+	}
+}
+.links line {
+	stroke: #999;
+	stroke-opacity: 0.6;
+}
+
+.nodes circle {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+
+
+ul.side-nav.fixed li.logo {
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 62px;
+}
+
+nav {
+	   height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    background: none;
+}
+
+
+.tabs .tab a {
+  color: #607d8b;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: transparent;
+  color: #607d8b;
+}
+
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+  color: #607d8b;
+  cursor: default;
+}
+
+.tabs .indicator {
+  background-color: #607d8b;
+}

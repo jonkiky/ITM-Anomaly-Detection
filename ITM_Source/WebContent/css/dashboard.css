@@ -1,0 +1,167 @@
+
+#page_title{
+font-size:15px;
+}
+.links line {
+	stroke: #999;
+	stroke-opacity: 0.6;
+}
+
+.brand-logo {
+	height: 100px;
+	!
+	important
+}
+
+.nodes circle {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+.wf-button {
+	width: 300px;
+	margin-bottom: 15px;
+}
+
+.thread_button {
+	margin-right: 20px;
+	border: black 1px solid;
+}
+
+.collapsible-body {
+	padding: 0px !important;
+}
+
+.d3-tip {
+	position: relative;
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	box-shadow: -3px 3px 15px #888888;
+	border-radius: 2px;
+	
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+	box-sizing: border-box;
+	display: inline;
+	font-size: 10px;
+	width: 100%;
+	line-height: 1;
+	color: rgba(0, 0, 0, 0.8);
+	content: "\25BC";
+	position: absolute;
+	text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+	margin: -1px 0 0 0;
+	top: 100%;
+	left: 0;
+}
+
+.d3-context-menu {
+	position: absolute;
+	display: none;
+	background-color: #edc9c9;
+	border-radius: 4px;
+	box-shadow: -3px 3px 15px #888888;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	min-width: 150px;
+	border: 1px solid #d4d4d4;
+	z-index: 1200;
+}
+
+.d3-context-menu ul {
+	list-style-type: none;
+	margin: 4px 0px;
+	padding: 0px;
+	cursor: pointer;
+}
+
+.d3-context-menu ul li {
+	padding: 4px 16px;
+	font-weight: bold;
+}
+
+.d3-context-menu ul li:hover {
+	background-color: #545353;
+	color: #fefefe;
+}
+
+.colorpicker {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	font-size: 12px;
+	position: absolute;
+	width: 310px;
+	height: 310px;
+	cursor: pointer;
+}
+
+#picker {
+	float: left;
+	margin: 10px;
+	border: 0;
+	cursor: pointer;
+}
+
+.controls {
+	float: right;
+	margin: 10px;
+}
+
+.controls>div {
+	border: 1px solid #2F2F2F;
+	margin-bottom: 5px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.controls label {
+	float: left;
+}
+
+.controls>div input {
+	background-color: #121212;
+	border: 1px solid #2F2F2F;
+	color: #DDDDDD;
+	float: right;
+	font-size: 10px;
+	height: 14px;
+	margin-left: 6px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 75px;
+}
+
+.preview {
+	background: url("../../images/select.png") repeat scroll center center
+		transparent;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #444444;
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+}
+.modal.modal-fixed-footer .modal-content {
+    height: calc(100% - 14px);
+}
+#add_thread_modal{
+	top:0px !important
+}
+
+#thread_info_modal{
+	top:0px !important
+}
