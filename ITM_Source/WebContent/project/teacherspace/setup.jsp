@@ -300,7 +300,7 @@
 
 		
 			 
-			  var $selectDropdown = 
+		 var $selectDropdown = 
 			      $("#select-grade")
 			        .empty()
 			        .html(' ');
@@ -772,7 +772,7 @@
 				 			  };
 				 		
 				 			var create_view_in_kf=$.ajax({
-				    			url :  kfurl + "api/contributions/"+ cid ,
+				    			url :  kfurl + "api/contributions/" ,
 				    			type : "POST",
 				    			data : JSON.stringify(createViewJson),
 				    			dataType : "json",
