@@ -1,0 +1,125 @@
+M:thread.understand_text_area_button click (O)thread.init
+M:project member.initGroup (O)project member.add_finish click
+M:project dashboard.addThreadView (O)project dashboard.initBuddyProject
+M:@className.dashboard.get_Communities() (O)project dashboard.getAreaThreadSize
+M:project modify.add_project_grade (O)project modify.initFromMonth
+M:project modify.add_project_grade (O)project modify.create-submit click
+M:project proposal.superTalkStatus (O)project proposal.superTalkStatus
+M:thread.initUser (O)thread.save-jot-btn
+M:project dashboard.checkMyFocus (O)project dashboard.getAreaThreadSize
+M:project modify.initGrades (O)project modify.add_project_curriculum
+M:project modify.initGrades (O)project modify.initInput
+M:thread.search autocomplete (O)thread.showScaffolds
+M:project dashboard.getSuperTalkJOTBySuperTalkId (O)project dashboard.showAreaInfo
+M:project dashboard.getSuperTalkJOTBySuperTalkId (O)project dashboard.wf_finish  click
+M:project dashboard.getSuperTalkJOTBySuperTalkId (O)project dashboard.initBuddyProject
+M:project dashboard.initBuddyProject (O)project dashboard.callAjaxfunc
+M:project dashboard.get_community_info (O)cross_project_sharing.initProject
+M:project dashboard.get_community_info (O)cross_project_sharing.get_community_info
+M:project dashboard.get_community_info (O)project dashboard.area_edit_btn click
+M:project setup.createViewInKF (O)project setup.create_a_public_wondering_area
+M:project setup.createViewInKF (O)project setup.project_view_add
+M:project setup.createViewInKF (O)project setup.thread_view
+M:project setup.createViewInKF (O)project setup.add_project_author
+M:@className.dashboard.MyRegistered() (O)project dashboard.initSuperTalkList
+M:cross_project_sharing.initProject (O)project dashboard.callAjaxfunc
+M:project dashboard.initSingleSuperTalk (O)project dashboard.showAreaInfo
+M:project dashboard.initSingleSuperTalk (O)project dashboard.wf_finish  click
+M:project dashboard.initSingleSuperTalk (O)project dashboard.getAreaThreadSize
+M:project dashboard.initSingleSuperTalk (O)project dashboard.callAjaxfunc
+M:thread.get_project_info (O)thread.websocket
+M:project dashboard.add_wf_click (O)project dashboard.getAreaThreadSize
+M:thread.show_buildon (O)thread.init
+M:project dashboard.update (O)project dashboard.update
+M:project dashboard.update (O)project modify.create-submit click
+M:thread.websocket_broadcast (O)thread.get_project_info
+M:thread.websocket_broadcast (O)thread.jotEdit
+M:thread.websocket_broadcast (O)thread.initUser
+M:thread.compileGraph click (O)thread.init
+M:project dashboard.showAreaInfo (O)project dashboard.get_project_info
+M:project dashboard.showAreaInfo (O)project dashboard.showAreaInfo
+M:project dashboard.showAreaInfo (O)project dashboard.get_community_info
+M:project modify.add_project_author (O)project modify.add_project_grade
+M:project modify.add_project_author (O)project setup.thread_view
+M:project modify.add_project_author (O)project modify.updateBuddyProject
+M:project dashboard.getAreaThreadSize (O)thread_import.initUser
+M:project dashboard.getAreaThreadSize (O)cross_project_sharing.get_community_info
+M:project dashboard.getAreaThreadSize (O)project dashboard.callAjaxfunc
+M:project dashboard.getAreaThreadSize (O)project dashboard.getSuperTalkJOTBySuperTalkId
+M:project dashboard.getAreaThreadSize (O)project dashboard.initBuddyProject
+M:project dashboard.getAreaThreadSize (O)project dashboard.add_wf_click
+M:project dashboard.getAreaThreadSize (O)project dashboard.initSingleSuperTalk
+M:project dashboard.getAreaThreadSize (O)project dashboard.getAreaThreadSize
+M:project dashboard.getAreaThreadSize (O)project dashboard.initWondering_area_in_Add_thread
+M:project dashboard.getAreaThreadSize (O)openedit.initPage
+M:project dashboard.getAreaThreadSize (O)project dashboard.area_edit_btn click
+M:project dashboard.area_delete_btn click (O)project dashboard.area_delete_btn click
+M:thread.jotUpdate (O)thread.initJOT
+M:project dashboard.area_edit_btn click (O)project dashboard.getAreaThreadSize
+M:project setup.project_view_add (O)project setup.getCommunityObject
+M:project setup.project_view_add (O)project setup.project_view_add
+M:project setup.project_view_add (O)project setup.add_project_author
+M:project setup.project_view_add (O)project setup.createViewInKF
+M:thread.sendMsg (O)thread.initViews
+M:project dashboard.thread_finish (O)project dashboard.thread_finish
+M:thread.timeorder click (O)@className.initViews
+M:project dashboard.initWondering_area_in_Add_thread (O)project dashboard.addWonderingAreaProject
+M:project dashboard.initTeacherReminder (O)project dashboard.callAjaxfunc
+M:project dashboard.threadProject (O)project dashboard.initSingleSuperTalk
+M:project setup.thread_view (O)project setup.creat_a_public_thread
+M:@className.initViews (O)thread_import.btn-add-thread click
+M:project modify.initToYear (O)project modify.initArea
+M:project modify.initToYear (O)project dashboard.update
+M:project modify.initToYear (O)project modify.updateBuddyProject
+M:project setup.creat_a_public_thread (O)project setup.project_view_add
+M:project setup.creat_a_public_thread (O)project setup.creat_a_public_thread
+M:project setup.creat_a_public_thread (O)project setup.thread_wondering
+M:thread_import.initUser (O)thread.initNavBar
+M:thread.insertJotSummaryTag (O)@className.initTable
+M:thread.prepare (O)project dashboard.initSingleSuperTalk
+M:thread.prepare (O)project dashboard.getAreaThreadSize
+M:project setup.create_a_public_wondering_area (O)project modify.create-submit click
+M:project setup.initGrades (O)project setup.project_view_add
+M:project setup.initGrades (O)project setup.createViewInKF
+M:thread.init (O)thread.get_project_info
+M:thread.init (O)thread.websocket_broadcast
+M:thread.init (O)thread.compile_list_sort_Title click
+M:thread.init (O)thread.initUser
+M:thread.showScaffolds clicik (O)activity_rader.get_wondering_area_thread
+M:activity_rader.get_project_info (O)activity_rader.get_user_note
+M:openedit.initPage (O)project modify.create-submit click
+M:thread.showtitle click (O)thread.init
+M:project dashboard.callAjaxfunc (O)project dashboard.get_project_info
+M:project dashboard.callAjaxfunc (O)project dashboard.showAreaInfo
+M:project dashboard.callAjaxfunc (O)project dashboard.addWonderingAreaProject
+M:project dashboard.callAjaxfunc (O)project dashboard.callAjaxfunc
+M:project dashboard.callAjaxfunc (O)project dashboard.initBuddyProject
+M:project dashboard.callAjaxfunc (O)thread.initNavBar
+M:project dashboard.callAjaxfunc (O)project dashboard.threadProject
+M:project dashboard.callAjaxfunc (O)project dashboard.getAreaThreadSize
+M:project dashboard.callAjaxfunc (O)project dashboard.area_edit_btn click
+M:project dashboard.callAjaxfunc (O)project dashboard.checkMyFocus
+M:thread_import.btn-search click (O)thread.prepare
+M:thread_import.btn-search click (O)thread_import.note_add_keywords
+M:cross_project_sharing.getDataForVisualization (O)project dashboard.update
+M:project modify.create-submit click (O)project modify.updateBuddyProject
+M:project modify.create-submit click (O)project modify.create-submit click
+M:project modify.create-submit click (O)project modify.add_project_curriculum
+M:project dashboard.get_project_info (O)project dashboard.get_community_info
+M:project dashboard.initThread (O)project dashboard.wf_finish  click
+M:project dashboard.wf_finish  click (O)project dashboard.getSuperTalkJOTBySuperTalkId
+M:project dashboard.wf_finish  click (O)project dashboard.initSingleSuperTalk
+M:project dashboard.wf_finish  click (O)project dashboard.get_community_info
+M:thread.get_community_info (O)activity_rader.get_thread_note_highlight
+M:thread.get_community_info (O)thread_import.note_add_keywords
+M:thread.showHistory (O)thread.prepare
+M:activity_rader.get_wondering_area_thread (O)activity_rader.get_wondering_area_thread
+M:project dashboard.initSuperTalkList (O)project dashboard.thread_finish
+M:project dashboard.initSuperTalkList (O)project dashboard.callAjaxfunc
+M:project dashboard.initSuperTalkList (O)cross_project_sharing.initUser
+M:activity_rader.get_thread_note (O)thread.init
+M:thread.showCompiledJotSummary (O)thread.save-jot-btn
+M:project setup.getCommunityObject (O)project setup.project_wondering
+M:project setup.getCommunityObject (O)project setup.add_project_author
+M:thread.save-jot-btn (O)thread.save-jot-btn
+M:thread.saveJot (O)thread.initUser
