@@ -11,7 +11,7 @@ var projectdata = {
 	};
 function show_buildon(){
 	$.ajax({
-		url : "/WSG/buildon/get/bythread",
+		url : "/WSG/buildon/get/",
 		type : "POST",
 		data : JSON.stringify(projectdata),
 		dataType : "json",

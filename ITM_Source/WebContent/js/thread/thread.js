@@ -2633,7 +2633,7 @@ $(document).ready(function() {
 			
 			$("#compile_list_sort_Highlight").click(function () {
 				
-				if(compileHighlightChecker){
+				if(get_project_infoChecker){
 					
 				}
 				
